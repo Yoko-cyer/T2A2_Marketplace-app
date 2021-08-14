@@ -6,7 +6,9 @@
   <div class="form-inputs">
     
     <%= f.input :meal_name %>
-    <%= f.input :category %>
+    <%= f.input :category,  
+    collection: ["Jpanese", "Korean", "Chinese", "Australian", "Indian",
+     "Mexican", "Original", "Not listed here"] %>
     <%= f.input :description %>
     <%= f.input :ingredients %>
     <%= f.input :price %>
@@ -14,6 +16,8 @@
     <%= f.input :time %>
     <%= f.input :message %>
     <%= f.input :guest_number %>
+    <%= f.file_field :picture%>
+
   </div>
 
   <div class="form-actions">
