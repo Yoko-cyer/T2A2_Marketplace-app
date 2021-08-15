@@ -1,6 +1,5 @@
 # Dentification of the problem I am trying to solve by building this particular marketplace app.
 
-
 # Problem that needs solving?
 ## Environment problems 
 - To reduce Food loss - due to population increase globally
@@ -14,7 +13,7 @@ One third of all food produced is lost or wasted –around 1.3 billion tonnes of
 
 # A link to my GitHub repository (repo).
 
-https://github.com/Yoko-cyer/sharing-meals-app
+https://github.com/Yoko-cyer/T2A2_Marketplace-app
 
 # Description of my marketplace app (website), including:
 
@@ -34,6 +33,9 @@ Another purpose is to solve my personal issues I have experienced and I face in 
 # Wireframes for my app
 
 # An ERD for my app
+## Initial ERD
+
+## Final ERD
 
 # Explain the different high-level components (abstractions) in my app
 
@@ -46,3 +48,5 @@ Another purpose is to solve my personal issues I have experienced and I face in 
 # Database schema design
 
 # Describe the way tasks are allocated and tracked in my project
+
+https://trello.com/b/X56MrtBz/t2a2-web-application

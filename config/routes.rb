@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'host/page'
   resources :lists
   devise_for :users
   root 'home#page'
