@@ -33,6 +33,8 @@ gem 'bootstrap', '~> 4.5.2'
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
+gem 'ransack'
+
 
 
 group :development, :test do
