@@ -1,10 +1,20 @@
-<% @lists.each do |list|%>
-    <div class="card" style="width: 18rem;">
-    <%= image_tag list.picture, class: "card-img-top" %>
-    <div class="card-body">
-        <h5 class="card-title"><%= list.meal_name %></h5>
-        <p class="card-text"><%= list.description %></p>
-        <%= link_to "Show More", list_path(list.id), class:"btn btn-primary" %>
-    </div>
-    </div>
-<% end %>
+<div class="row">
+
+    <% @lists.each do |list|%>
+
+        <div class="col-md-4, col-sm-6">
+            <div class="card" style="width: 18rem;">
+            <%= image_tag list.picture, class: "card-img-top" if post.picture.attached? %>
+
+            <div class="card-body">
+                <h5 class="card-title"><%= list.meal_name %></h5>
+                <p class="card-text"><%= list.description %></p>
+                <p class="card-text"><%= list.price %></p>
+                <%= link_to "Show More", list_path(list.id), class:"btn btn-primary" %>
+            </div>
+            </div>
+        </div>
+
+    <% end %>
+
+</div>
