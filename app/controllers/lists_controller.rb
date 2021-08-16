@@ -1,6 +1,7 @@
 class ListsController < ApplicationController
   before_action :set_list, only: %i[ show edit update destroy ]
   skip_before_action :verify_authenticity_token, only: [:show]
+  before_action :authenticate_user!, except: [:show, :index]
 
   # GET /lists or /lists.json
   def index
