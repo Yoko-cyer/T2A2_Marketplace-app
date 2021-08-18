@@ -10,27 +10,26 @@ class ListsController < ApplicationController
 
   # GET /lists/1 or /lists/1.json
   def show
-    session = Stripe::Checkout::Session.create(
-      payment_method_types: ['card'],
-      customer_email: current_user.mail,
-      line_items: [{
-        name: @list.meal_name,
-        description: @list.description,
-        images: [aws],
-        amount: @list.price,
-        crrency: 'aud', 
-        quantity: 1,
-      }],
-      paymet_intent_date: {
-        metadata: {
-          list_id: @list.id
-        } 
-      },
-      success_url: "#{root_url}payments/success?listId=#{@list.id}",
-      cancel_url: "#{root_url}lists"
+    # session = Stripe::Checkout::Session.create(
+    #   payment_method_types: ['card'],
+    #   customer_email: current_user.email,
+    #   line_items: [{
+    #     name: @list.meal_name,
+    #     description: @list.description,
+    #     amount: @list.price,
+    #     crrency: 'aud', 
+    #     quantity: 1,
+    #   }],
+    #   paymet_intent_date: {
+    #     metadata: {
+    #       list_id: @list.id
+    #     } 
+    #   },
+    #   success_url: "#{root_url}payments/success?listId=#{@list.id}",
+    #   cancel_url: "#{root_url}lists"
       
-    )  
-    @session_id = session.id
+    # )  
+    # @session_id = session.id
   end
 
   # GET /lists/new
