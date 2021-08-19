@@ -77,7 +77,7 @@ The purpose of building this application is to satisfy the requirements of Term 
 
 
 ## Sitemap
-![](../../docs/sitemap.png)
+![sitemap](https://user-images.githubusercontent.com/74385785/130010923-9e0f7c80-99cc-488a-9b65-84630f091e1f.png)
 
 ## Screenshots
 ![Log in](./docs/screenshot-login.png)
