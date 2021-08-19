@@ -126,10 +126,11 @@ I can define two kinds of users. One is as a host and the another one as a guest
 
 
 # Wireframes 
-![Login](./docs/wireframe-login.png)
-![Home](./docs/wireframe-home.png)
-![Host registration](./docs/wireframe-host-registration.png)
-![Search](./docs/wireframe-search.png)
+
+![wireframe-login](https://user-images.githubusercontent.com/74385785/130011400-e9afbbab-bab2-4dab-ab27-74eade68b67d.png)
+![wireframe-home](https://user-images.githubusercontent.com/74385785/130011383-2d55c0aa-9c56-4758-ac3b-504e372f994c.png)
+![wireframe-host-registration](https://user-images.githubusercontent.com/74385785/130011389-29a78769-3e04-4018-a030-f2a4b8d2dc8e.png)
+![wireframe-search](https://user-images.githubusercontent.com/74385785/130011410-d85ce96c-2be1-443c-a809-d63c45e17d3f.png)
 
 # An ERD 
 ## Initial ERD
