@@ -132,7 +132,7 @@ I can define two kinds of users. One is as a host and the another one as a guest
 
 # An ERD 
 ## Initial ERD
-![Initial ERD](./docs/initial_ERD.png)
+![initial_ERD](https://user-images.githubusercontent.com/74385785/130011273-68551a77-464d-4e54-861c-bfe051ed2639.png)
 
 ## Final ERD
 ![]()
