@@ -1,5 +1,38 @@
 # Set up instructions for local server
+1. Clone the repository
 
+Run this command.
+    
+    `git clone git@github.com:Yoko-cyer/T2A2_Marketplace-app.git`
+
+2. Update yarn configuration
+
+Run this command.
+
+    `yarn install --check-files`
+
+
+3. Please make sure Ruby 3.0.0 and Rails 6.1.
+
+4. Setup Postgresql server
+
+Run this command.
+
+    `rails db:setup`
+
+    `rails db:migrate`
+
+    `rails db:seed`
+
+6. Run local server 
+
+Run this command 
+
+    `rails s`
+
+7. Visit https://localhost:3000/ to load the website
+
+--------------------
 
 # Identification of the problems by creating this app 
 Recently, the most serious issues in the world now are environmental challenges. These are caused by 7.8 million humans and their activities as supporting industries grow and the population increases. I think we are required to work to maintain a sustainable society and an environment for our next generations. Reducing food wastage is something we can all contribute easily to, so I decided to focus on this problem. Another problem are mental health issues generally, and especially from work stresses in offices, or working/virtually from home during the Covid-19 pandemic. I think sharing some surplus food items or meals, rather than throwing it away into landfill, which will prevent personal isolation and help other people in challenging times. 
@@ -44,15 +77,14 @@ The purpose of building this application is to satisfy the requirements of Term 
 
 
 ## Sitemap
-![]()
+![](./docs/sitemap.png)
 
 ## Screenshots
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![Log in](./docs/screenshot-login.png)
+![Home](./docs/screenshot-home.png)
+![Host registration](./docs/screenshot-host-registration.png)
+![Listing edit](./docs/screenshot-list-edit.png)
+![Search](./docs/screenshot-listing.png)
 
 ## Target audience
 I can define two kinds of users. One is as a host and the another one as a guest.
@@ -81,7 +113,7 @@ I can define two kinds of users. One is as a host and the another one as a guest
 - Localhost servers - for server
 - Postgresql - for database
 - Heroku - for deployment
-- AWS S3 - for image upload
+- AWS S3 - for cloud image upload
 
 # User stories 
 - As one of the citizens on the earth, I want to contribute to a sustainable society by reducing food wastage. 
@@ -93,44 +125,46 @@ I can define two kinds of users. One is as a host and the another one as a guest
 
 
 # Wireframes 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![Login](./docs/wireframe-login.png)
+![Home](./docs/wireframe-home.png)
+![Host registration](./docs/wireframe-host-registration.png)
+![Search](./docs/wireframe-search.png)
 
 # An ERD 
 ## Initial ERD
-![]()
+![Initial ERD](./docs/initial_ERD.png)
 
 ## Final ERD
 ![]()
 
 # Different high-level components (abstractions)
 
-In a MVC application like Uniq_E, User model is associated with post and service models by using one to many relationship.
+I useed rails applicacion for this application, so MVC model is used. I will describe how they are interect each other. 
+
+User mode
+
+<!-- In a MVC application like Uniq_E, User model is associated with post and service models by using one to many relationship.
 
 When an user create a post and service, the create method in post and service controllers is checking and assign current user with the post which has just been created.
 
-In the views, all the buttons are display by using link_to syntax and path using rails routes. Therefore, relevant contents are to be rendered.
+In the views, all the buttons are display by using link_to syntax and path using rails routes. Therefore, relevant contents are to be rendered. -->
 
-# Detail any third party services that my app will use
+# Third party services that my app will use
 - Bootstrap 4
 - Devise gem
 - Simpleform gem
 - Heroku 
 
-# Describe your projects models in terms of the relationships (active record associations) they have with each other
+# Projects models in terms of the relationships (active record associations) they have with each other
+meals one to one relatino
 
-
-# Discuss the database relations to be implemented in your application
+# Database relations to be implemented in your application
 
 
 # Database schema design
-![]()
+![Image 1](./docs/schema-design-1.png)
 
-![]()
+![Image 2](./docs/schema-design-2.png)
 
 # Task allocation and tracking
 
