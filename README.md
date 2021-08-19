@@ -80,11 +80,12 @@ The purpose of building this application is to satisfy the requirements of Term 
 ![sitemap](https://user-images.githubusercontent.com/74385785/130010923-9e0f7c80-99cc-488a-9b65-84630f091e1f.png)
 
 ## Screenshots
-![Log in](./docs/screenshot-login.png)
-![Home](./docs/screenshot-home.png)
-![Host registration](./docs/screenshot-host-registration.png)
-![Listing edit](./docs/screenshot-list-edit.png)
-![Search](./docs/screenshot-listing.png)
+
+![screenshot-login](https://user-images.githubusercontent.com/74385785/130011370-9cfe65f7-b616-4cd6-b3f8-caf2d7de4e21.png)
+![screenshot-home](https://user-images.githubusercontent.com/74385785/130011335-9456273b-8c34-4661-ba36-dd4f3221c6f4.png)
+![screenshot-host-registration](https://user-images.githubusercontent.com/74385785/130011345-855d19af-acd3-4962-b8a9-c2968f1769ee.png)
+![screenshot-list-edit](https://user-images.githubusercontent.com/74385785/130011357-5c1cd7c1-6fa2-4815-84a4-b9358b8b0d9b.png)
+![screenshot-listing](https://user-images.githubusercontent.com/74385785/130011365-46a56c52-0f63-49d8-a995-58cbad08f0bd.png)
 
 ## Target audience
 I can define two kinds of users. One is as a host and the another one as a guest.
