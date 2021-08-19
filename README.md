@@ -137,19 +137,20 @@ I can define two kinds of users. One is as a host and the another one as a guest
 ![initial_ERD](https://user-images.githubusercontent.com/74385785/130011273-68551a77-464d-4e54-861c-bfe051ed2639.png)
 
 ## Final ERD
-![]()
+Changes to the final ERD:
+- It changed to a lot simpler due to time limitations.
+- Some tabels are deleted:
+    - Postcode
+    - Purchases
+    - Ingredients
+   
+![final-ERD](https://user-images.githubusercontent.com/74385785/130018654-acdb501a-9da8-4c06-bfb7-48514fa72cb6.png)
 
 # Different high-level components (abstractions)
-
-I useed rails applicacion for this application, so MVC model is used. I will describe how they are interect each other. 
-
-User mode
-
-<!-- In a MVC application like Uniq_E, User model is associated with post and service models by using one to many relationship.
-
-When an user create a post and service, the create method in post and service controllers is checking and assign current user with the post which has just been created.
-
-In the views, all the buttons are display by using link_to syntax and path using rails routes. Therefore, relevant contents are to be rendered. -->
+Explanations to the final ERD:
+- Users table has one to one relationship with Usersinfo table.
+- Usersinfo table has one to many relationship with Meals.
+- Meals table has one to one relationship with Images table.
 
 # Third party services that my app will use
 - Bootstrap 4
@@ -158,7 +159,7 @@ In the views, all the buttons are display by using link_to syntax and path using
 - Heroku 
 
 # Projects models in terms of the relationships (active record associations) they have with each other
-meals one to one relatino
+User has one to many relationships with list table.
 
 # Database relations to be implemented in your application
 
