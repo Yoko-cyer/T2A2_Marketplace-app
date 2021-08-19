@@ -1,3 +1,6 @@
+# Set up instructions for local server
+
+
 # Identification of the problems by creating this app 
 Recently, the most serious issues in the world now are environmental challenges. These are caused by 7.8 million humans and their activities as supporting industries grow and the population increases. I think we are required to work to maintain a sustainable society and an environment for our next generations. Reducing food wastage is something we can all contribute easily to, so I decided to focus on this problem. Another problem are mental health issues generally, and especially from work stresses in offices, or working/virtually from home during the Covid-19 pandemic. I think sharing some surplus food items or meals, rather than throwing it away into landfill, which will prevent personal isolation and help other people in challenging times. 
 
@@ -36,7 +39,8 @@ The purpose of building this application is to satisfy the requirements of Term 
 - Users are able to choose to become either a host or a guest
 - As a host, users are able to register their meals including meal names, categories, ingredients, location, price, time, to message guests and provide photos. 
 - The list of meals are shown and guests can choose meals from the list.
-- The person in admin edit and delete meal items from the list.     
+- The person in admin edit and delete meal items from the list.
+- Admin ID:admin.yoko@test, Password:lovelove     
 
 
 ## Sitemap
@@ -68,15 +72,16 @@ I can define two kinds of users. One is as a host and the another one as a guest
 
 ## Tech stack (e.g. html, css, deployment platform, etc)
 
-- THML
-- CSS/SCSS
-- Javascript
-- Ruby
-- Ruby on Rails
-- Localhost servers
-- Postgresql
-- Heroku
-- AWS S3
+- THML - for writing text
+- CSS/SCSS - for styling 
+- Javascript - for movement in HTML file
+- Bootstrap 4 - for neat design 
+- Ruby - for programming language
+- Ruby on Rails - for framework
+- Localhost servers - for server
+- Postgresql - for database
+- Heroku - for deployment
+- AWS S3 - for image upload
 
 # User stories 
 - As one of the citizens on the earth, I want to contribute to a sustainable society by reducing food wastage. 
@@ -102,7 +107,13 @@ I can define two kinds of users. One is as a host and the another one as a guest
 ## Final ERD
 ![]()
 
-# Explain the different high-level components (abstractions) in my app
+# Different high-level components (abstractions)
+
+In a MVC application like Uniq_E, User model is associated with post and service models by using one to many relationship.
+
+When an user create a post and service, the create method in post and service controllers is checking and assign current user with the post which has just been created.
+
+In the views, all the buttons are display by using link_to syntax and path using rails routes. Therefore, relevant contents are to be rendered.
 
 # Detail any third party services that my app will use
 - Bootstrap 4
@@ -112,7 +123,9 @@ I can define two kinds of users. One is as a host and the another one as a guest
 
 # Describe your projects models in terms of the relationships (active record associations) they have with each other
 
+
 # Discuss the database relations to be implemented in your application
+
 
 # Database schema design
 ![]()
