@@ -162,9 +162,8 @@ meals one to one relatino
 
 
 # Database schema design
-![Image 1](./docs/schema-design-1.png)
-
-![Image 2](./docs/schema-design-2.png)
+![schema-design-1](https://user-images.githubusercontent.com/74385785/130011300-04f5e372-9747-4203-b056-0ef646840008.png)
+![schema-design-2](https://user-images.githubusercontent.com/74385785/130011311-b5a32603-4598-4890-9f43-8323d4219e7d.png)
 
 # Task allocation and tracking
 
