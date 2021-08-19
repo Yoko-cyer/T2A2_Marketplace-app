@@ -77,7 +77,7 @@ The purpose of building this application is to satisfy the requirements of Term 
 
 
 ## Sitemap
-![](./docs/sitemap.png)
+![](../../docs/sitemap.png)
 
 ## Screenshots
 ![Log in](./docs/screenshot-login.png)
