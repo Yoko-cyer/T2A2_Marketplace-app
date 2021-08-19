@@ -19,11 +19,11 @@ Recently, the most serious issues in the world now are environmental challenges.
 
 # A link (URL) to my deployed app
 
-https://share-my-meals.herokuapp.com/
+<https://share-my-meals.herokuapp.com/>
 
 # A link to my GitHub repository
 
-https://github.com/Yoko-cyer/T2A2_Marketplace-app
+<https://github.com/Yoko-cyer/T2A2_Marketplace-app>
 
 # Description of my marketplace app
 
@@ -40,7 +40,15 @@ The purpose of building this application is to satisfy the requirements of Term 
 
 
 ## Sitemap
+![]()
+
 ## Screenshots
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
 
 ## Target audience
 I can define two kinds of users. One is as a host and the another one as a guest.
@@ -80,11 +88,19 @@ I can define two kinds of users. One is as a host and the another one as a guest
 
 
 # Wireframes 
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
 
 # An ERD 
 ## Initial ERD
+![]()
 
 ## Final ERD
+![]()
 
 # Explain the different high-level components (abstractions) in my app
 
@@ -99,9 +115,12 @@ I can define two kinds of users. One is as a host and the another one as a guest
 # Discuss the database relations to be implemented in your application
 
 # Database schema design
+![]()
+
+![]()
 
 # Task allocation and tracking
 
 I used Trello for my project management. I added some checklists for major tasks for better management. Each card is allocated at an appropriate stage such as To do, Doing and Done.
 
-https://trello.com/b/X56MrtBz/t2a2-web-application
+<https://trello.com/b/X56MrtBz/t2a2-web-application>
